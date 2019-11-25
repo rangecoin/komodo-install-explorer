@@ -42,13 +42,15 @@ Now run the script: https://github.com/gcharang/komodo-install-explorer/blob/mas
 ```
 
 This will create a new sub directory named `SMARTCHAINNAME-explorer` and a script named `SMARTCHAINNAME-explorer-start.sh`
-It also adds data to a file called `SMARTCHAINNAME-webaccess` with the Smart Chain's name and the url to access the explorer from anywhere else.
+It also adds data to a file called `SMARTCHAINNAME-webaccess` with the Smart Chain's name and the url to access the explorer from anywhere else. example :- { cat ./RANGECOIN-explorer-start.sh }
 
 Start the assetchain with its launch parameters and execute the script `SMARTCHAINNAME-explorer-start.sh` when you want to start the explorer
 
 **Note:** Use the `noweb` option like so: `./install-assetchain-explorer.sh SMARTCHAINNAME noweb` to stop the script from prompting you to open the port for accessing the explorer through the internet; i.e., explorer will only be accessible on the local system
 
 **Note:** When launching the Smart Chain for the first time after installing the explorer, add the `-reindex` parameter to its launch parameters.
+
+for webaccess:- cat RANGECOIN-webaccess
 
 ### Adding another assetchain's explorer and running it at the same time
 
